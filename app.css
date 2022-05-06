@@ -1,0 +1,65 @@
+body{
+       background-color: lightyellow;
+       font-family: 'Poppins', sans-serif;
+}
+
+#mainNavbar{
+       font-size: 1 rem;
+       font-weight: 200;
+       background-color: aquamarine;
+}
+
+
+#mainNavbar .nav-link:hover{
+    
+       color: darkblue;
+       
+}
+#mainNavbar .navbar-brand{
+       color: darkblue;
+       font-size:xx-large;
+       font-weight:bold;      
+}
+
+.text-center{
+       color: darkblue;
+}
+
+#headingGroup span{
+       color: red;
+}
+
+#headingGroup h1{
+       font-weight: 100;
+}
+
+.navbar.scrolled{
+       background-color: blue;
+       transition: background 1s;
+}
+
+
+@media(max-width : 999px){
+       #headingGroup h1{
+              font-weight: 100;
+              font-size: 4rem;
+       }
+}
+
+.houseHeading{
+       color: darkgreen;
+       background-color: antiquewhite;
+       border-radius: 20px;
+       margin-bottom: 14px;
+       margin-top: 13px;
+}
+
+.lead{
+       color: darkred;
+       line-height: 2;
+}
+
+.topSpace{
+       margin-top: 100px;
+}
+
